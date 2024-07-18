@@ -1,0 +1,9 @@
+Random quote generator : 
+
+Requirement --> button -> on clicking randomily quotes are shown 
+                tech -> html(UI)
+                Css -> (styling)
+                Js -> (functionality)
+
+padding -> space around elem border and elem content
+margin -> space around elem border

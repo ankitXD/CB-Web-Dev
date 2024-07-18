@@ -1,0 +1,28 @@
+<!-- make a button on clicking it should add new element showing Hello world -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Add Elem</h1>
+    <button id="addElemID" onclick="addElement()">
+      Add Element
+    </button>
+    <div id="elementContainer"> </div>
+  </div>
+
+  <script>
+    function addElement(){
+      const elementContainer = document.getElementById("elementContainer");
+      const newElem = document.createElement('h1');
+      newElem.textContent = "Append kara hai ye";
+      elementContainer.appendChild(newElem);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cube Calculator</title>
+</head>
+<body>
+  <form>
+    <label for="number">Enter a number:</label>
+    <input id="number" name="number">
+    <input type="button" value="Calculate Cube" onclick="calculateCube()">
+    <p id="result"> ab ye change hoga</p>
+  </form>
+
+  <script>
+    function calculateCube() {
+      var number = document.getElementById("number").value; //NUMBER LIYA JO USER NE DALA
+    
+      var ans = number*number*number; // cube krdia
+      
+      document.getElementById("result").innerHTML = ans; //SYSO TYPE MAANLO 
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    function Student(name,marks){
+      var s_name = name;
+      var s_marks = marks;
+
+      Object.defineProperty(this,"name",{
+        get:function(){
+          return s_name;
+        },
+        set:function(){
+          this.s_name=s_name;
+        }
+
+      })
+      Object.defineProperty(this,"marks",{
+        get:function(){
+          return s_marks;
+        },
+        set:function(){
+          this.s_marks=s_marks;
+        }
+
+      })
+    }
+    var s = new Student("john",54);
+    document.writeln(s.name);
+  </script>
+</body>
+</html>

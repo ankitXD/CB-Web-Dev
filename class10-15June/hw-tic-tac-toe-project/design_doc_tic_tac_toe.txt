@@ -1,0 +1,21 @@
+Tic-Tac-Toe Design Document
+1. Project Overview
+Name: Tic-Tac-Toe
+Description: A web-based implementation of the classic two-player Tic-Tac-Toe game. Players take turns to place their marks (X or O) on a 3x3 grid, aiming to be the first to align three marks in a row, column, or diagonal.
+2. Objectives
+Implement a responsive Tic-Tac-Toe game playable on both desktop and mobile devices.
+Provide a clear, user-friendly interface.
+Ensure the game logic accurately detects win, loss, or draw conditions.
+Allow players to restart the game at any time.
+3. Requirements
+3.1 Functional Requirements
+Grid Display: Display a 3x3 grid.
+Player Turns: Alternate between two players (X and O).
+Mark Placement: Allow players to click/tap on a cell to place their mark.
+Win Detection: Detect and announce the winner when a player aligns three marks.
+Draw Detection: Detect and announce a draw when all cells are filled with no winner.
+Game Reset: Provide a button to reset the game.
+3.2 Non-Functional Requirements
+Performance: The game should run smoothly without lag.
+Responsiveness: The game should be responsive and playable on different devices (desktop, tablet, mobile).
+Usability: The interface should be intuitive and easy to use

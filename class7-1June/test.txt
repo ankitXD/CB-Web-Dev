@@ -1,0 +1,101 @@
+Q1.
+ 
+const obj = {
+    count: 10,
+    increment: function() {
+        setTimeout(() => {
+            console.log(this.count);
+        }, 1000);
+    }
+};
+obj.increment();
+
+A) 10
+B) undefined
+C) null
+D) ReferenceError
+
+Answer: A) 10
+
+
+
+Q2.
+console.log(foo);
+var foo = 'Hello';
+console.log(bar);
+function bar() {
+    return 'World';
+}
+console.log(bar());
+What will be the output of the above code?
+
+A) undefined, undefined, World
+B) ReferenceError, ReferenceError, World
+C) undefined, function bar() { return 'World'; }, World
+D) undefined, ReferenceError, World
+
+
+Q3.
+console.log(foo);
+var foo = 'Hello';
+console.log(bar);
+function bar() {
+    return 'World';
+}
+console.log(bar());
+What will be the output of the above code?
+
+A) undefined, undefined, World
+B) ReferenceError, ReferenceError, World
+C) undefined, function bar() { return 'World'; }, World
+D) undefined, ReferenceError, World
+
+
+ 
+
+Q4.
+const obj = {
+   '1': 'one',
+    1: 'two',
+    3: 'three'
+};
+console.log(obj['1'], obj[1], obj[3]);
+What will be the output of the above code?
+
+A) one, two, three
+B) two, two, three
+C) one, one, three
+D) undefined, two, three
+
+Q5.
+for (var i = 0; i < 3; i++) {
+    setTimeout(function() {
+        console.log(i);
+    }, 1000);
+}
+What will be logged to the console?
+
+A) 0 1 2
+B) undefined undefined undefined
+C) 3 3 3
+D) 0 1 2 with a delay of 1 second
+
+
+
+Q6.
+Given an array of integers, write a function to find the sum of its elements.
+
+
+Q7.
+Given an array of integers, write a function to find the maximum element in the array.
+
+Q8.
+Write a function to check if a given number is prime.
+
+Q9.
+Write a function to generate the first n numbers in the Fibonacci sequence.
+
+Q10.
+Write a function to perform binary search on a sorted array of integers. Return the index of the target element if found, otherwise return -1.
+
+

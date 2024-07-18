@@ -1,0 +1,47 @@
+<!-- for each loop and query selector -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector vs querySelectorAll</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin: 50px;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>querySelector vs querySelectorAll Example</h1>
+        <button onclick="highlightFirst()">Highlight First Div</button>
+        <button onclick="highlightAll()">Highlight All Divs</button>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <script>
+        function highlightFirst() {
+            const firstDiv = document.querySelector('.box');
+            if (firstDiv) {
+                firstDiv.classList.add('highlight');
+            }
+        }
+
+        function highlightAll() {
+            const allDivs = document.querySelectorAll('.box');
+            allDivs.forEach(div => div.classList.add('highlight'));
+        }
+    </script>
+</body>

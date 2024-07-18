@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    function showdata(name,amt){
+      document.write("Name and the amt is",name,amt);
+    }
+    function getdata(callback){
+      var name = prompt("what is your name");
+      var amt = prompt("What is your amt");
+      callback(name,amt);
+    }
+    getdata(showdata);
+  </script>
+</body>
+</html>

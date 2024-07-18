@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+    class Employee{
+      constructor(){
+        this.age = 20;
+      }
+    }
+    class Company extends Employee{
+      constructor(id,name){
+        super();
+        this.id = id;
+        this.name = name;
+      }
+    }
+    var emp = new Company(1,"ankit");
+    document.writeln(emp.id+" "+emp.name+" "+emp.age);
+  </script>
+</body>
+</html>

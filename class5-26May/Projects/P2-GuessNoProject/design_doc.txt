@@ -1,0 +1,7 @@
+Guess game -> Randomly gen no 
+
+guess a number between 1 to 100
+
+3 chance
+output -> correct
+       -> less or greater

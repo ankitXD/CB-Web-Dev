@@ -1,0 +1,24 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cb5a5c;
+  height: 100vh;
+  margin: 0;
+}
+.container{
+  text-align: center;
+  background-color: beige;
+  padding: 2em;
+  box-shadow: 0 0 50px ;
+  border-radius: 10px;
+}
+button{
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+}

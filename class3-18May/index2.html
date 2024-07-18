@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<p>
+    This is p
+</p>
+<p>
+    this is p2
+</p>
+<p>
+    this is p3
+</p>
+<h2>This is h2 tag</h2>
+<h2>This is h2 tag</h2>
+<h3>This is h3 tag</h3>
+<h3>This is h3 tag</h3>
+<h3>This is h3 tag</h3>
+<button onclick="cp()">count p's</button>
+<button onclick="counth2()">count h2</button>
+<button onclick="counth3()">count h3</button>
+
+</body>
+<script>
+    function cp() {
+      var no = document.getElementsByTagName("p");
+      alert(no.length);
+    } 
+    function counth2(){
+      var no = document.getElementsByTagName("h2");
+      alert(no.length);
+    }
+    function counth3(){
+      var no = document.getElementsByTagName("h3");
+      alert(no.length);
+    }
+    
+</script>
+
+</html>
