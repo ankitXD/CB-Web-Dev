@@ -2,8 +2,8 @@ package org.example;
 
 import java.security.Principal;
 
-public class Main {
-    public static void main(String[] args) {
+// public class Main {
+//     public static void main(String[] args) {
        // System.out.println("Hello world!");
 
 //        Sub_Super.NestedClass obj=new Sub_Super.NestedClass();
@@ -39,30 +39,30 @@ public class Main {
 //        obj.put("hello",12);
 
 //raw type val
-        raw_type_obj<String>  p=new raw_type_obj<>();
-        raw_type_obj  p1=new raw_type_obj<>();// object as paramter -->type
-        p1.setPrintValue(1);
-        p1.setPrintValue("hello");
+//         raw_type_obj<String>  p=new raw_type_obj<>();
+//         raw_type_obj  p1=new raw_type_obj<>();// object as paramter -->type
+//         p1.setPrintValue(1);
+//         p1.setPrintValue("hello");
 
-}
+// }
 /*
         nested classes -> class within another class
-// scope-> outer class
+scope-> outer class
 2 type--> static nested
         non static
 
 static -> doesnot have access to non static instance variables and methods
 
-//local inner class -->classes defined inside a block
+local inner class -->classes defined inside a block
         */
 //public class Sub_Super { // outer class
 //    int instanceVar=10;
 //    static int classvar=20;
 //    static class NestedClass{
 //        void print(){
-//            //System.out.println("instancevar",instancevariable);// err
+           //System.out.println("instancevar",instancevariable);// err
 //            System.out.println("classvar"+ classvar);
-//            // if there a static class (inner) it can only access to static vars and methods
+           // if there a static class (inner) it can only access to static vars and methods
 //        }
 //    }
 //}
@@ -72,9 +72,9 @@ static -> doesnot have access to non static instance variables and methods
 //    static int classvar=20;
 //     class NestedClass{
 //        void print(){
-//            //System.out.println("instancevar",instancevariable);// err
+           //System.out.println("instancevar",instancevariable);// err
 //            System.out.println("classvar"+ classvar);
-//            // if there a static class (inner) it can only access to static vars and methods
+           // if there a static class (inner) it can only access to static vars and methods
 //        }
 //    }
 //}

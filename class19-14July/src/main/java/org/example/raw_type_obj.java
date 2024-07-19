@@ -6,8 +6,8 @@ public class raw_type_obj<T> {
     public T getPrintValue(){
         return value;
     }
-    public T setPrintValue(T value){
-        this.value=value;
-    }
+    // public T setPrintValue(T value){
+    //     this.value=value;
+    // }
 
 }

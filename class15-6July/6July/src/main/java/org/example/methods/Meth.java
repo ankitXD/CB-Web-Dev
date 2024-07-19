@@ -8,9 +8,9 @@ public class Meth {
         System.out.println(total);
         return total;
     }
-    public int getPrice(){
-        //
-    }
+    // public int getPrice(){
+    //     //
+    // }
     // function abc(){
 
     //       }

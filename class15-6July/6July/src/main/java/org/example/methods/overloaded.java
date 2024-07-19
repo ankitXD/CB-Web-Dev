@@ -9,9 +9,9 @@ public class overloaded {
     void getInvoice(String z){
 
     }
-    int getInvoice(int a ){
+    // int getInvoice(int a ){
 
-    }
+    // }
     public void printInvoice(){
         getInvoice();
     }

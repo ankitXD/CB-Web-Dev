@@ -1,9 +1,9 @@
 package org.example;
 
-public class Engineer implements Person{
+// public class Engineer implements Person{
 
-    @Override
-    public String profession(){
-        return "SDE";
-    }
-}
+//     @Override
+//     public String profession(){
+//         return "SDE";
+//     }
+// }

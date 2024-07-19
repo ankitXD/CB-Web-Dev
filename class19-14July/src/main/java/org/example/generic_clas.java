@@ -13,9 +13,9 @@ public class generic_clas<T> {
   public T getPrintValue(){
        return value;
    }
-  public T setPrintValue(T value){
-       this.value=value;
-    }
+//   public T setPrintValue(T value){
+//        this.value=value;
+//     }
 
 }
 
